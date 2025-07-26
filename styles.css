@@ -115,8 +115,19 @@
 .text-side h1 span {
     color: #fd5e21;
 }
+.reddit {
+    border: 1.5px solid #ffb69a;
+    border-radius: 10px;
+    background-color: #fff7ed;
+    padding: 5px;
+    font-size: 60px;
+}
+.text-side h1 span img {
+    width: 45px;
+    height: 45px;
+}
 .text-side h1 {
-    font-size: 75px;
+    font-size: 65px;
     line-height: 80px;
     margin: 20px 0px;
 }
@@ -219,7 +230,7 @@
 }
 .screen {
     /* border: 1px solid orange; */
-    margin-top: 90px;
+    margin-top: 120px;
 }
 .screen img {
     border: 3px solid #fe8d61;
