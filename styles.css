@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.add {
+    border: 1px solid black;
+    height: 95px;
+    background-image: linear-gradient(to bottom right,  #fff6eb, #fddbb4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add img {
+    width: 50px;
+    height: 16px;
+}
+.add h3 {
+    font-family: serif;
+    color: #ae5531;
+}
+.add p {
+    font-family: serif;
+    color: #ae5531;
+    font-size: 16px;
+    margin-top: 16px;
+}
+/* head style */
+.head {
+    /* border: 1px solid black; */
+    background-color: #fcf9f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+.head img {
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 170px;
+    padding: 8px;
+    cursor: pointer;
+}
+.nav-items {
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    margin-right: 120px;
+}
+.nav-items li a {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    color: black;
+}
+.nav-items li a:hover {
+    border: 1px solid #fe8d61;
+    color: #892700;
+    border-radius: 10px;
+}
+.nav-btns {
+    /* border: 1px solid green; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav-btns li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.nav-btns li {
+    margin: 12px;
+}
+.nav-btns li button {
+    padding: 6px 10px;
+    color: white;
+    background-color: #fd5e21;
+    border: 3px solid #fe8d61;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* section-1 style */
+.main {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+}
+.text-side {
+    /* border: 1px solid red; */
+    width: 55%;
+    padding: 10px 0px 0px 90px;
+}
+.top-btn {
+    width: 220px;
+    color: #fd5e21;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 600;
+    background-color: white;
+    /* border: 1px solid #fe8d61; */
+    border: none;
+    box-shadow: 0px 0px 1px #fe8d61;
+    border-radius: 12px;
+    padding: 5px;
+}
+.text-side h1 span {
+    color: #fd5e21;
+}
+.text-side h1 {
+    font-size: 75px;
+    line-height: 80px;
+    margin: 20px 0px;
+}
+.text-side p {
+    margin: 22px 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.text-side ul li {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 8px;
+    margin: 30px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* list-style-position: inside; */
+}
+.list-img {
+    border: 1px solid grey;
+    background-color: #f3f4f6;
+    border-radius: 100%;
+    padding: 6px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+/* .search img {
+    width: 50px;
+    height: 50px;
+} */
+/* .search {
+    list-style: url(assets/interface.png); 
+} */
+.buttons button {
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+.buttons .org-btn {
+    background-color: #fd5e21;
+    color: white;
+    border: 3px solid #fe8d61;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gr-btn {
+    color: gray;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+.gr-btn:hover {
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+}
+.img-side {
+    /* border: 1px solid green; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-right: 30px; */
+    margin-left: -100px;
+}
+.rect-box {
+    border: 1.5px solid #ffb69a;
+    box-shadow:  0px 1px 3px 1px #cecece;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 50px;
+    padding: 4px;
+    margin-top: 170px;
+}
+.rect-box h2 {
+    font-size: 12px;
+}
+.rect-box p{
+    font-size: 8px;
+    font-family: sans-serif;
+    color: grey;
+    line-height: 10px;
+    margin-top: 4px;
+}
+.img-side .box-icon {
+    border: 1px solid transparent;
+    background-color: #ede5f4;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.screen {
+    /* border: 1px solid orange; */
+    margin-top: 90px;
+}
+.screen img {
+    border: 3px solid #fe8d61;
+    border-radius: 10px;
+    width: 330px;
+    height: 300px;
+}
