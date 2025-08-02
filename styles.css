@@ -279,3 +279,38 @@
     width: 330px;
     height: 300px;
 }
+/* second-section */
+
+.second-sec {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos {
+    border: 1px solid red;
+}
+.logo-1 {
+    width: 100px;
+    height: 100px;
+}
+.logo-2 {
+    width: 100px;
+    height: 100px;
+}
+.logo-3 {
+    width: 100px;
+    height: 100px;
+}
+.logo-4 {
+    width: 100px;
+    height: 100px;
+}
+.logo-5 {
+    width: 100px;
+    height: 100px;
+}
+.second-sec h3 span {
+    color: #fd5e21;
+}
