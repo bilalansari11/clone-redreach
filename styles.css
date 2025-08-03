@@ -279,8 +279,7 @@
     width: 330px;
     height: 300px;
 }
-/* second-section */
-
+/* section-2 style */
 .second-sec {
     border: 1px solid black;
     display: flex;
@@ -290,6 +289,10 @@
 }
 .logos {
     border: 1px solid red;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .logo-1 {
     width: 100px;
@@ -297,7 +300,7 @@
 }
 .logo-2 {
     width: 100px;
-    height: 100px;
+    height: 50px;
 }
 .logo-3 {
     width: 100px;
