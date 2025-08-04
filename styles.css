@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
 .add {
     /* border: 1px solid black; */
     height: 95px;
@@ -288,31 +291,36 @@
     align-items: center;
 }
 .logos {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 60px;
     align-items: center;
+    padding-left: 250px;
 }
 .logo-1 {
-    width: 200px;
+    width: 160px;
     height: 180px;
 }
 .logo-2 {
-    width: 200px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
+    margin-right: -20px;
 }
 .logo-3 {
     width: 200px;
-    height: 100px;
+    height: 130px;
 }
 .logo-4 {
     width: 200px;
-    height: 100px;
+    height: 220px;
+    margin-left: -50px;
 }
 .logo-5 {
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 160px;
+    margin-left: -40px;
 }
 .second-sec h3 span {
     color: #fd5e21;
